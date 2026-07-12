@@ -1,0 +1,24 @@
+{
+  "model_path": "voting_ensemble_final.joblib",
+  "threshold": 0.35,
+  "metrics_at_threshold": {
+    "precision": 0.95,
+    "recall": 0.82,
+    "f1": 0.88
+  },
+  "feature_columns": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "Power",
+    "Heat_Strain",
+    "Thermal_Stress_Ratio",
+    "High_Power_Hazard",
+    "Underpower_Stall_Risk",
+    "Tool_Wear_Squared",
+    "Torque_Wear_Impact"
+  ]
+}
